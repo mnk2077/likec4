@@ -80,8 +80,6 @@
     "@dagrejs/dagre": "1.1.5",
     "@likec4/core": "workspace:*",
     "@likec4/styles": "workspace:*",
-    "@mantine/core": "catalog:mantine",
-    "@mantine/hooks": "catalog:mantine",
     "@nanostores/react": "catalog:react",
     "@react-hookz/web": "catalog:react",
     "@xstate/react": "^5.0.5",
@@ -99,6 +97,8 @@
     "xstate": "^5.20.0"
   },
   "peerDependencies": {
+    "@mantine/core": "catalog:mantine",
+    "@mantine/hooks": "catalog:mantine",
     "@pandacss/dev": "catalog:css",
     "react": "^18.x || ^19.x",
     "react-dom": "^18.x || ^19.x"
